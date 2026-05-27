@@ -1,0 +1,3 @@
+This notebook analyzes the UNSW-NB15 dataset and evaluates SVM, random forest, and MLP on malicious network traffic classification.
+
+[UNSW-NB15](https://research.unsw.edu.au/projects/unsw-nb15-dataset) was created in 2015 at the University of New South Wales Canberra's Cyber Range lab. It contains a mix of normal and malicous network activity collected using the IXIA PerfectStorm tool. The malicious activity is categorized into 9 types (Fuzzers, Analysis, Backdoors, DoS, Exploits, Generic, Reconnaissance, Shellcode and Worms). There are 42 features for things like protocol, time to live values, sequence numbers, etc. There are 257,673 records in total.
